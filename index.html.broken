@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Aviral Gupta — B.Tech IT student, AI/ML enthusiast and web developer."
+  />
+
+  <title>Aviral Gupta — AI / ML & Web Developer</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="site-header">
+
+    <a href="#top" class="logo">
+      Aviral<span>.</span>
+    </a>
+
+    <nav class="navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#toolkit">Toolkit</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-controls">
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <span id="themeIcon">🌙</span>
+      </button>
+      <a
+        class="header-button"
+        href="mailto:aviral2413045@akgec.ac.in"
+      >
+        Let's talk ↗
+      </a>
+    </div>
+
+  </header>
+
+
+  <main id="top">
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+      <div class="hero-kicker">
+        👋 B.Tech IT student · AI / ML · Web Development
+      </div>
+
+      <div class="hero-avatar">
+        <img src="images/josh-avatar.png" alt="Aviral Gupta">
+      </div>
+      <h1>
+        Hi, I'm
+        <span>Aviral Gupta</span>.
+      </h1>
+
+      <p class="hero-description">
+        I build practical things with machine learning,
+        computer vision and the web.
+        Currently studying Information Technology at AKGEC
+        and looking for opportunities to learn, contribute
+        and ship.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="#work" class="button primary">
+          Explore my work ↓
+        </a>
+
+        <a
+          href="mailto:aviral2413045@akgec.ac.in"
+          class="button secondary"
+        >
+          Email me ↗
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= FEATURED PROJECT ================= -->
+
+    <section class="featured" id="work">
+
+      <div class="section-label">
+        FEATURED PROJECT · SMART INDIA HACKATHON
+      </div>
+
+      <a href="#retail" class="featured-card">
+
+        <div class="featured-content">
+
+          <div class="project-category">
+            AI / COMPUTER VISION
+          </div>
+
+          <h2>
+            AI-Powered Retail
+            Intelligence Platform
+          </h2>
+
+          <p>
+            A privacy-focused retail intelligence platform
+            that converts live video into useful store analytics.
+          </p>
+
+          <ul>
+
+            <li>
+              Real-time footfall, movement and dwell-time analytics
+            </li>
+
+            <li>
+              Anonymous tracking, entry/exit counting and heatmaps
+            </li>
+
+            <li>
+              Queue estimation and 5/10-minute congestion prediction
+            </li>
+
+            <li>
+              FastAPI + WebSockets + SQLite/SQLAlchemy
+            </li>
+
+            <li>
+              Edge-oriented architecture with YOLO/ByteTrack
+              and ONNX support
+            </li>
+
+          </ul>
+
+          <span class="read-more">
+            Read project details →
+          </span>
+
+        </div>
+
+
+        <!-- PROJECT VISUAL -->
+
+        <div class="retail-visual">
+
+          <div class="store">
+
+            <div class="shelf shelf-1"></div>
+            <div class="shelf shelf-2"></div>
+            <div class="shelf shelf-3"></div>
+
+            <div class="person person-1"></div>
+            <div class="person person-2"></div>
+            <div class="person person-3"></div>
+
+          </div>
+
+
+          <div class="analytics-card">
+
+            <small>QUEUE NOW</small>
+
+            <strong>08</strong>
+
+            <small>
+              5 MIN PREDICTION
+            </small>
+
+            <div class="bars">
+
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </a>
+
+    </section>
+
+
+    <!-- ================= SELECTED WORK ================= -->
+
+    <section class="section">
+
+      <div class="section-heading">
+
+        <h2>Selected work</h2>
+
+        <p>
+          Things I've built while learning.
+        </p>
+
+      </div>
+
+
+      <div class="posts">
+
+        <!-- PROJECT -->
+
+        <article class="post">
+
+          <div class="post-category">
+            MACHINE LEARNING
+          </div>
+
+          <h3>
+            Stock Price Predictor
+            using LSTM
+          </h3>
+
+          <p>
+            A deep-learning time-series project using
+            LSTM neural networks to learn historical
+            stock-price patterns and generate predictions.
+          </p>
+
+          <div class="tags">
+
+            <span>Python</span>
+            <span>LSTM</span>
+            <span>Pandas</span>
+            <span>Neural Networks</span>
+
+          </div>
+
+          <span class="read-more">
+            View project →
+          </span>
+
+        </article>
+
+
+        <!-- FREELANCE -->
+
+        <article class="post">
+
+          <div class="post-category">
+            WEB DEVELOPMENT
+          </div>
+
+          <h3>
+            Freelance Websites
+          </h3>
+
+          <p>
+            Designed and developed multiple client websites
+            across requirements gathering, UI implementation,
+            responsive design and deployment.
+          </p>
+
+          <div class="tags">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Responsive UI</span>
+
+          </div>
+
+          <span class="read-more">
+            What I learned →
+          </span>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="section" id="about">
+
+      <div class="about">
+
+        <div class="about-title">
+
+          <div class="section-label">
+            A LITTLE ABOUT ME
+          </div>
+
+          <h2>
+            Curious by default.
+            <br />
+
+            <em>
+              Hands-on by choice.
+            </em>
+
+          </h2>
+
+        </div>
+
+
+        <div class="about-text">
+
+          <p>
+            I'm pursuing a
+            <strong>
+              B.Tech in Information Technology
+            </strong>
+            at Ajay Kumar Garg Engineering College,
+            with expected graduation in 2028.
+          </p>
+
+          <p>
+            I enjoy the intersection of
+            <strong>
+              AI, machine learning and software development
+            </strong>
+            — especially taking an idea from a rough concept
+            to a working product.
+          </p>
+
+          <p>
+            I've contributed to GDG projects,
+            hackathons, academic group projects
+            and freelance websites.
+          </p>
+
+          <p>
+            My team was also a
+            <strong>
+              Runner-Up at an IIIT Gwalior hackathon.
+            </strong>
+          </p>
+
+          <p class="highlight-text">
+            Currently open to internship opportunities.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section class="section" id="experience">
+
+      <div class="section-heading">
+
+        <h2>Experience</h2>
+
+      </div>
+
+
+      <div class="timeline">
+
+
+        <!-- IBM -->
+
+        <article class="timeline-item">
+
+          <div class="timeline-number">
+            01 · 1 MONTH
+          </div>
+
+          <div>
+
+            <h3>
+              AI Intern
+              <span>
+                · IBM Edunet Foundation
+              </span>
+            </h3>
+
+            <p>
+              Completed hands-on exposure to Artificial
+              Intelligence concepts, practical projects
+              and industry-oriented AI use cases.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- GDG -->
+
+        <article class="timeline-item">
+
+          <div class="timeline-number">
+            02 · COMMUNITY
+          </div>
+
+          <div>
+
+            <h3>
+              Machine Learning Domain Member
+              <span>
+                · GDG AKGEC
+              </span>
+            </h3>
+
+            <p>
+              Participated in ML workshops and collaborative
+              learning activities covering data science
+              workflows, model building and neural-network
+              concepts.
+            </p>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CERTIFICATIONS ================= -->
+
+    <section class="section" id="certifications">
+
+    <section class="section">
+
+      <div class="section-heading">
+
+        <h2>
+          Certifications
+        </h2>
+
+      </div>
+
+
+      <div class="certifications">
+
+        <article>
+
+          <span>01</span>
+
+          <div>
+
+            <h3>
+              Introduction to Generative AI Studio
+            </h3>
+
+            <p>
+              Google Cloud / Simplilearn SkillUp
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article>
+
+          <span>02</span>
+
+          <div>
+
+            <h3>
+              Databricks: SQL Analytics and BI
+            </h3>
+
+            <p>
+              Simplilearn SkillUp
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article>
+
+          <span>03</span>
+
+          <div>
+
+            <h3>
+              Prompt Engineering & GitHub Copilot
+            </h3>
+
+            <p>
+              Microsoft / GitHub-focused · Simplilearn
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article>
+
+          <span>04</span>
+
+          <div>
+
+            <h3>
+              Microsoft Data Analyst 101
+            </h3>
+
+            <p>
+              Simplilearn SkillUp
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article>
+
+          <span>05</span>
+
+          <div>
+
+            <h3>
+              Fundamentals of Machine Learning
+              using Scikit-learn
+            </h3>
+
+            <p>
+              Infosys Springboard
+            </p>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- ================= TOOLKIT ================= -->
+
+    <section class="section" id="toolkit">
+
+    <section class="section">
+
+      <div class="section-heading">
+
+        <h2>My toolkit</h2>
+
+      </div>
+
+
+      <div class="skills">
+
+        <span>Python</span>
+        <span>Java</span>
+        <span>SQL</span>
+
+        <span>Scikit-learn</span>
+        <span>Neural Networks</span>
+        <span>LSTM</span>
+
+        <span>Pandas</span>
+        <span>NumPy</span>
+
+        <span>Data Visualization</span>
+
+        <span>Git</span>
+        <span>GitHub</span>
+
+        <span>VS Code</span>
+        <span>Docker</span>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ACHIEVEMENTS ================= -->
+
+    <section class="section achievements">
+
+      <div class="section-heading">
+
+        <h2>
+          Achievements
+        </h2>
+
+        <p>
+          A few milestones.
+        </p>
+
+      </div>
+
+
+      <ol class="achievement-list">
+
+        <li>
+
+          <span>01</span>
+
+          <strong>
+            IIIT Gwalior Hackathon — Runner-Up
+          </strong>
+
+          <small>
+            Achievement
+          </small>
+
+        </li>
+
+
+        <li>
+
+          <span>02</span>
+
+          <strong>
+            Smart India Hackathon — Retail Intelligence
+          </strong>
+
+          <small>
+            AI / ML
+          </small>
+
+        </li>
+
+
+        <li>
+
+          <span>03</span>
+
+          <strong>
+            Freelance Web Development
+          </strong>
+
+          <small>
+            Client work
+          </small>
+
+        </li>
+
+
+        <li>
+
+          <span>04</span>
+
+          <strong>
+            Multiple Collaborative Technical Projects
+          </strong>
+
+          <small>
+            Teamwork
+          </small>
+
+        </li>
+
+      </ol>
+
+    </section>
+
+
+>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact" id="contact">
+
+      <div class="section-label">
+        HAVE AN OPPORTUNITY?
+      </div>
+
+      <h2>
+        Let's build something
+        <br />
+
+        <em>
+          interesting.
+        </em>
+
+      </h2>
+
+      <p>
+        I'm open to internships,
+        collaborative projects and
+        freelance web development.
+      </p>
+
+      <div class="contact-buttons">
+
+        <a
+          href="mailto:aviral2413045@akgec.ac.in"
+          class="button primary"
+        >
+          aviral2413045@akgec.ac.in ↗
+        </a>
+
+        <a
+          href="tel:+919451145249"
+          class="button secondary"
+        >
+          +91 9451145249
+        </a>
+
+      </div>
+
+
+      <footer>
+
+        <span>
+          English · Hindi
+        </span>
+
+        <span>
+          © 2026 Aviral Gupta
+        </span>
+
+        <a href="#top">
+          Back to top ↑
+        </a>
+
+      </footer>
+
+    </section>
+
+  </main>
+
+
+  <button
+    id="topButton"
+    aria-label="Back to top"
+  >
+    ↑
+  </button>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
