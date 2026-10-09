@@ -95,7 +95,7 @@ html[data-theme="dark"] .coming-card{background:linear-gradient(145deg,#24233a,#
 html[data-theme="dark"] .soft-section{background:linear-gradient(145deg,#111a30,#121e2c);border-color:var(--line)}
 .timeline{border-color:var(--line)}
 .timeline-dot{background:linear-gradient(135deg,var(--blue),var(--purple));box-shadow:0 0 0 5px var(--paper)}
-.timeline-meta,.timeline-content .time,.timeline-content>p:last-child{color:var(--muted)}
+.timeline-meta,.timeline-content .time,.timeline-content>p{color:var(--muted)}
 .timeline-content h3 span{color:var(--purple)}
 .about-copy{color:var(--muted)}
 .about-copy strong{color:var(--ink)}
@@ -235,7 +235,7 @@ body { background: var(--paper); color: var(--ink); }
 html[data-theme="dark"] .status-dot { background: #6de0ae; box-shadow: 0 0 0 5px rgba(109,224,174,.12); }
 .hero h1, .section-heading h2, .project-body h3, .timeline-content h3, .achievement-card h3, .contact-inner h2 { color: var(--ink); }
 h1 em, h2 em, .timeline-content h3 span { color: var(--purple); }
-.hero-text, .section-heading>p:last-child, .project-body>p, .project-points, .about-copy, .timeline-meta, .timeline-content .time, .timeline-content>p:last-child, .contact-inner>p:not(.eyebrow), .footer-meta { color: var(--muted); }
+.hero-text, .section-heading>p:last-child, .project-body>p, .project-points, .about-copy, .timeline-meta, .timeline-content .time, .timeline-content>p, .contact-inner>p:not(.eyebrow), .footer-meta { color: var(--muted); }
 .quick-facts, .marquee-track { color: var(--muted); }
 .marquee { background: var(--surface); border-color: var(--line); }
 .marquee-track i, .project-type, .achievement-card>span { color: var(--purple); }
@@ -407,7 +407,7 @@ h1,h2,h3,h4,.section-heading h2,.project-body h3,.timeline-content h3,
 h1 em,h2 em{color:var(--purple)}
 .hero h1 em,.section-heading h2 span,.contact-inner h2 em{color:var(--purple)}
 .eyebrow,.project-type,.project-number{color:var(--purple)}
-.hero-text,.section-heading>p:last-child,.about-copy,.timeline-content>p:last-child,
+.hero-text,.section-heading>p:last-child,.about-copy,.timeline-content>p,
 .project-body>p,.project-points,.quick-facts,.contact-inner>p:not(.eyebrow),
 .footer-about p,.footer-column,.footer-bottom{color:var(--muted)}
 .nav-links{color:var(--muted)}
