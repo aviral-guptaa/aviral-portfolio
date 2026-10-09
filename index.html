@@ -1,276 +1,268 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aviral Gupta | Portfolio</title>
-    <meta name="description" content="Portfolio of Aviral Gupta – B.Tech IT student at AKGEC, ML & Web Development enthusiast.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Aviral Gupta — B.Tech Information Technology student, ML engineer and web developer." />
+  <meta name="theme-color" content="#f5f7fc" />
+  <title>Aviral Gupta — AI / ML & Software Developer</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
-        <nav class="nav container">
-            <a class="nav__logo" href="#home">Aviral Gupta</a>
-            <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
-                <span class="nav__toggle-bar"></span>
-                <span class="nav__toggle-bar"></span>
-                <span class="nav__toggle-bar"></span>
-                <span class="sr-only">Toggle navigation</span>
-            </button>
-            <ul class="nav__menu" id="navMenu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a class="nav__cta" href="mailto:aviral2413045@akgec.ac.in">Get in touch</a></li>
-            </ul>
-        </nav>
+  <a class="skip-link" href="#top">Skip to main content</a>
+  <div class="page-shell">
+    <header class="nav">
+      <a class="brand" href="#top" aria-label="Aviral Gupta home">
+        <span class="brand-mark">AG</span>
+        <span>Aviral Gupta</span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="nav-cta" href="mailto:aviral2413045@akgec.ac.in">Let's talk <span>↗</span></a>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle light and dark theme" title="Toggle theme">☾</button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      </div>
     </header>
 
-    <main id="main">
-        <section id="home" class="hero">
-            <div class="container hero__grid">
-                <div class="hero__content">
-                    <div class="hero__avatar">
-                        <img src="images/josh-avatar.png" alt="Aviral Gupta avatar" loading="lazy">
-                    </div>
-                    <p class="hero__eyebrow">B.Tech Information Technology • AKGEC Ghaziabad</p>
-                    <h1 class="hero__title">Building practical ML & web solutions with clarity.</h1>
-                    <p class="hero__subtitle">
-                        I'm Aviral Gupta, a final-year focused B.Tech student who loves turning ideas into clean,
-                        responsive interfaces and privacy-conscious, data-driven applications.
-                    </p>
-                    <div class="hero__actions">
-                        <a class="btn btn--primary" href="#projects">View Projects</a>
-                        <a class="btn btn--ghost" href="mailto:aviral2413045@akgec.ac.in">
-                            <i class="bi bi-envelope"></i> Email Me
-                        </a>
-                        <a class="btn btn--ghost" href="https://github.com/aviralgupta" target="_blank" rel="noopener">
-                            <i class="bi bi-github"></i> GitHub
-                        </a>
-                        <a class="btn btn--ghost" href="https://www.linkedin.com/in/aviralgupta" target="_blank" rel="noopener">
-                            <i class="bi bi-linkedin"></i> LinkedIn
-                        </a>
-                    </div>
-                    <ul class="hero__meta">
-                        <li><i class="bi bi-geo-alt"></i> Lucknow / Delhi NCR, India</li>
-                        <li><i class="bi bi-telephone"></i> +91 9451145249</li>
-                        <li><i class="bi bi-envelope-at"></i> aviral2413045@akgec.ac.in</li>
-                    </ul>
-                </div>
-                <div class="hero__card">
-                    <div class="hero__card-inner">
-                        <span class="hero__card-kicker">Focus</span>
-                        <ul class="hero__card-list">
-                            <li>Machine Learning & LSTM</li>
-                            <li>Full-stack Web Development</li>
-                            <li>Computer Vision & Edge-Oriented Systems</li>
-                            <li>Data Analysis & Visualization</li>
-                        </ul>
-                        <div class="hero__card-footer">
-                            <span>Open to internship opportunities</span>
-                        </div>
-                    </div>
-                </div>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> B.Tech IT student · AI/ML · Open to internships</p>
+          <h1>Hi, I'm <span class="highlight">Aviral.</span><br />I like building things that <em>actually work.</em></h1>
+          <p class="hero-text">
+            I'm an Information Technology student at AKGEC who enjoys turning ideas into
+            practical products — from machine-learning systems and computer vision pipelines
+            to responsive websites.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">See my work <span>↓</span></a>
+            <a class="button button-ghost" href="mailto:aviral2413045@akgec.ac.in">Email me <span>↗</span></a>
+            <a class="button button-ghost" href="https://github.com/aviral-guptaa" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+          </div>
+          <div class="quick-facts">
+            <span>📍 Lucknow / Delhi NCR, India</span>
+            <span>🎓 AKGEC · 2024–2028</span>
+          </div>
+        </div>
+
+        <div class="hero-art reveal" aria-label="Illustration of Aviral working at a laptop">
+          <div class="blob blob-a"></div>
+          <div class="blob blob-b"></div>
+          <div class="spark spark-1">✦</div>
+          <div class="spark spark-2">✦</div>
+          <div class="doodle-line"></div>
+          <div class="desk">
+            <div class="laptop">
+              <div class="screen">
+                <div class="screen-top"><span></span><span></span><span></span></div>
+                <div class="code-line w-90"></div>
+                <div class="code-line w-70"></div>
+                <div class="code-line w-82"></div>
+                <div class="code-line w-55"></div>
+                <div class="code-line w-74"></div>
+                <div class="terminal-cursor"></div>
+              </div>
+              <div class="keyboard"></div>
             </div>
-        </section>
-        <section id="about" class="section">
-            <div class="container">
-                <header class="section__header">
-                    <span class="section__eyebrow">About</span>
-                    <h2 class="section__title">A little about me</h2>
-                    <p class="section__subtitle">
-                        B.Tech (IT) at AKGEC, Ghaziabad (2024–2028). I enjoy building things that blend logic with
-                        usability — from ML models to responsive websites for real clients.
-                    </p>
-                </header>
-                <div class="about__grid">
-                    <article class="card">
-                        <h3 class="card__title">Education</h3>
-                        <p class="card__lead">Bachelor of Technology (B.Tech), Information Technology</p>
-                        <p class="card__text">Ajay Kumar Garg Engineering College (AKGEC), Ghaziabad • Expected Graduation: 2028</p>
-                    </article>
-                    <article class="card">
-                        <h3 class="card__title">Freelance Work</h3>
-                        <p class="card__text">Designed and developed multiple websites for freelance clients — covering requirements gathering, UI implementation, responsive design, and deployment.</p>
-                    </article>
-                    <article class="card">
-                        <h3 class="card__title">Mindset</h3>
-                        <p class="card__text">Detail-oriented, collaborative, and eager to write readable code. I prefer minimal UI, thoughtful UX, and practical solutions over overengineering.</p>
-                    </article>
-                </div>
+            <div class="coffee"><div class="coffee-steam"></div></div>
+            <div class="person">
+              <div class="hair"></div>
+              <div class="head"><div class="eye e1"></div><div class="eye e2"></div><div class="smile"></div></div>
+              <div class="neck"></div>
+              <div class="body"><div class="shirt-logo">AG</div></div>
+              <div class="arm arm-left"></div>
+              <div class="arm arm-right"></div>
             </div>
-        </section>
-        <section id="experience" class="section section--alt">
-            <div class="container">
-                <header class="section__header">
-                    <span class="section__eyebrow">Experience & Community</span>
-                    <h2 class="section__title">Where I've learned & contributed</h2>
-                </header>
-                <div class="timeline">
-                    <article class="timeline__item">
-                        <div class="timeline__marker"></div>
-                        <div class="timeline__content">
-                            <header class="timeline__header">
-                                <h3>AI Intern • IBM Edunet Foundation</h3>
-                                <span class="timeline__date">1 Month</span>
-                            </header>
-                            <ul class="list">
-                                <li>Completed hands-on exposure to AI concepts, practical projects, and industry-oriented AI use cases.</li>
-                            </ul>
-                        </div>
-                    </article>
-                    <article class="timeline__item">
-                        <div class="timeline__marker"></div>
-                        <div class="timeline__content">
-                            <header class="timeline__header">
-                                <h3>Machine Learning Domain Member • Google Developer Groups (GDG), AKGEC</h3>
-                                <span class="timeline__date">Ongoing</span>
-                            </header>
-                            <ul class="list">
-                                <li>Participated in ML workshops covering data science workflows, model building & neural networks.</li>
-                                <li>Contributed to collaborative technical projects & GDG initiatives with hands-on team-based development.</li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
+          </div>
+          <div class="art-caption">building · learning · shipping</div>
+        </div>
+      </section>
+
+      <section class="marquee" aria-label="Areas of interest">
+        <div class="marquee-track">
+          <span>PYTHON</span><i>✦</i><span>MACHINE LEARNING</span><i>✦</i><span>COMPUTER VISION</span><i>✦</i><span>WEB DEVELOPMENT</span><i>✦</i>
+          <span>PYTHON</span><i>✦</i><span>MACHINE LEARNING</span><i>✦</i><span>COMPUTER VISION</span><i>✦</i><span>WEB DEVELOPMENT</span><i>✦</i>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects I'm proud of.</h2>
+          <p>Not just coursework — projects where I got to solve a real problem, make technical decisions, and ship something tangible.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-featured reveal">
+            <div class="project-visual retail-visual">
+              <div class="visual-label">SIH · AI / COMPUTER VISION</div>
+              <div class="store-scene">
+                <div class="store-shelf s1"></div><div class="store-shelf s2"></div><div class="store-shelf s3"></div>
+                <div class="person-dot p1"></div><div class="person-dot p2"></div><div class="person-dot p3"></div>
+                <div class="heat h1"></div><div class="heat h2"></div><div class="heat h3"></div>
+                <div class="dashboard-float"><b>QUEUE</b><strong>08</strong><small>predicted +5 min</small></div>
+              </div>
             </div>
-        </section>
-        <section id="projects" class="section">
-            <div class="container">
-                <header class="section__header">
-                    <span class="section__eyebrow">Projects</span>
-                    <h2 class="section__title">Selected work</h2>
-                    <p class="section__subtitle">A couple of things I've built that I'm proud of.</p>
-                </header>
-                <div class="projects__grid">
-                    <article class="project-card">
-                        <div class="project-card__body">
-                            <div class="project-card__top">
-                                <h3>AI-Powered Retail Intelligence Platform</h3>
-                                <span class="project-card__tag">Major Project – Smart India Hackathon (SIH)</span>
-                            </div>
-                            <p class="project-card__desc">Privacy-focused retail intelligence that converts live video into real-time footfall, movement, dwell-time, queue & shelf analytics.</p>
-                            <ul class="list list--tight">
-                                <li>OpenCV-based video processing, anonymous multi-object tracking, entry/exit counting & zone analytics</li>
-                                <li>Movement heatmaps, dwell-time analysis, queue intelligence with wait-time estimation</li>
-                                <li>5/10-minute congestion prediction using ML with fallback trend analysis</li>
-                                <li>FastAPI + WebSockets backend, SQLite/SQLAlchemy, Docker-ready architecture</li>
-                                <li>Edge-oriented design with optional YOLO/ByteTrack & ONNX support</li>
-                            </ul>
-                            <div class="project-card__stack">
-                                <span>Python</span><span>OpenCV</span><span>FastAPI</span><span>WebSockets</span><span>SQLAlchemy</span><span>Docker</span><span>YOLO/ByteTrack</span><span>ONNX</span>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="project-card">
-                        <div class="project-card__body">
-                            <div class="project-card__top">
-                                <h3>Stock Price Predictor using LSTM</h3>
-                                <span class="project-card__tag">Machine Learning Mini Project</span>
-                            </div>
-                            <p class="project-card__desc">Deep learning model using LSTM to forecast stock prices from historical time-series data.</p>
-                            <ul class="list list--tight">
-                                <li>Time-series preprocessing & feature preparation</li>
-                                <li>LSTM model training, validation & prediction workflow</li>
-                                <li>Focused on clean data handling & model evaluation</li>
-                            </ul>
-                            <div class="project-card__stack">
-                                <span>Python</span><span>Keras/TensorFlow</span><span>LSTM</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span>
-                            </div>
-                        </div>
-                    </article>
-                </div>
+            <div class="project-body">
+              <div class="project-top"><span class="project-number">01</span><span class="project-type">Major project</span></div>
+              <h3>AI-Powered Retail Intelligence Platform</h3>
+              <p>A privacy-focused retail analytics platform that turns live video into footfall, movement, dwell-time, queue and shelf intelligence.</p>
+              <ul class="project-points">
+                <li>OpenCV video processing, anonymous multi-object tracking and entry/exit counting</li>
+                <li>Zone analytics, movement heatmaps, dwell-time analysis and queue prediction</li>
+                <li>FastAPI + WebSockets backend with SQLite/SQLAlchemy and Docker-ready architecture</li>
+                <li>Designed for edge-oriented processing with optional YOLO/ByteTrack and ONNX support</li>
+              </ul>
+              <div class="tags"><span>Python</span><span>OpenCV</span><span>FastAPI</span><span>ML</span><span>Docker</span></div>
             </div>
-        </section>
-        <section id="skills" class="section section--alt">
-            <div class="container">
-                <header class="section__header">
-                    <span class="section__eyebrow">Technical Skills</span>
-                    <h2 class="section__title">Tools I work with</h2>
-                </header>
-                <div class="skills__grid">
-                    <article class="pill-group">
-                        <h3>Languages</h3>
-                        <div class="pills"><span class="pill">Python</span><span class="pill">Java</span><span class="pill">SQL</span></div>
-                    </article>
-                    <article class="pill-group">
-                        <h3>AI / Machine Learning</h3>
-                        <div class="pills"><span class="pill">Scikit-learn</span><span class="pill">Neural Networks</span><span class="pill">LSTM</span><span class="pill">Supervised Learning</span><span class="pill">Model Evaluation</span></div>
-                    </article>
-                    <article class="pill-group">
-                        <h3>Data & Analytics</h3>
-                        <div class="pills"><span class="pill">Pandas</span><span class="pill">NumPy</span><span class="pill">Data Cleaning</span><span class="pill">Data Visualization</span></div>
-                    </article>
-                    <article class="pill-group">
-                        <h3>Tools & Deployment</h3>
-                        <div class="pills"><span class="pill">Git</span><span class="pill">GitHub</span><span class="pill">VS Code</span><span class="pill">Docker</span></div>
-                    </article>
-                </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual stock-visual">
+              <div class="visual-label">DEEP LEARNING</div>
+              <div class="chart">
+                <svg viewBox="0 0 500 190" role="img" aria-label="Stylized stock prediction chart">
+                  <path class="grid-line" d="M0 40H500M0 90H500M0 140H500"/>
+                  <path class="chart-line" d="M0 145 C35 125, 45 150, 75 125 S110 100, 135 115 S165 70, 195 92 S225 105, 250 72 S280 45, 310 66 S345 92, 370 48 S410 75, 435 35 S470 52, 500 20"/>
+                  <circle cx="500" cy="20" r="6"/>
+                </svg>
+                <div class="chart-pill">LSTM forecast</div>
+              </div>
             </div>
-        </section>
-        <section id="achievements" class="section">
-            <div class="container">
-                <header class="section__header">
-                    <span class="section__eyebrow">Achievements & Leadership</span>
-                    <h2 class="section__title">Highlights</h2>
-                </header>
-                <div class="grid grid--two">
-                    <article class="card">
-                        <h3 class="card__title">Hackathon Runner-Up – IIIT Gwalior</h3>
-                        <p class="card__text">Secured Runner-Up as part of a team, contributing to solution development, implementation & collaboration.</p>
-                    </article>
-                    <article class="card">
-                        <h3 class="card__title">Smart India Hackathon</h3>
-                        <p class="card__text">Contributed to AI-Powered Retail Intelligence Platform focusing on ML & intelligent analytics.</p>
-                    </article>
-                    <article class="card">
-                        <h3 class="card__title">Collaborative Technical Projects</h3>
-                        <p class="card__text">Worked on multiple academic & technical group projects spanning ML, web dev & software engineering.</p>
-                    </article>
-                    <article class="card">
-                        <h3 class="card__title">Certifications</h3>
-                        <ul class="list list--tight">
-                            <li>Introduction to Generative AI Studio – Google Cloud / Simplilearn SkillUp</li>
-                            <li>Databricks: Get Started with SQL Analytics and BI – Simplilearn SkillUp</li>
-                            <li>Introduction to Prompt Engineering and GitHub Copilot – Microsoft/GitHub-focused, Simplilearn SkillUp</li>
-                            <li>Microsoft Data Analyst 101 – Simplilearn SkillUp</li>
-                            <li>Infosys Springboard – Fundamentals of Machine Learning using Scikit-learn</li>
-                        </ul>
-                    </article>
-                </div>
+            <div class="project-body">
+              <div class="project-top"><span class="project-number">02</span><span class="project-type">Mini project</span></div>
+              <h3>Stock Price Predictor using LSTM</h3>
+              <p>A deep-learning time-series project using Long Short-Term Memory networks to learn historical stock-price patterns and generate predictions.</p>
+              <div class="tags"><span>Python</span><span>LSTM</span><span>Neural Networks</span><span>Pandas</span></div>
             </div>
-        </section>
-        <section id="contact" class="section section--alt">
-            <div class="container">
-                <header class="section__header">
-                    <span class="section__eyebrow">Contact</span>
-                    <h2 class="section__title">Let's connect</h2>
-                    <p class="section__subtitle">If you'd like to collaborate, hire for an internship, or just say hi — reach out directly.</p>
-                </header>
-                <div class="contact__grid">
-                    <a class="contact-card" href="mailto:aviral2413045@akgec.ac.in"><i class="bi bi-envelope-fill"></i><div><h3>Email</h3><p>aviral2413045@akgec.ac.in</p></div></a>
-                    <a class="contact-card" href="tel:+919451145249"><i class="bi bi-telephone-fill"></i><div><h3>Phone</h3><p>+91 9451145249</p></div></a>
-                    <a class="contact-card" href="https://github.com/aviralgupta" target="_blank" rel="noopener"><i class="bi bi-github"></i><div><h3>GitHub</h3><p>github.com/aviralgupta</p></div></a>
-                    <a class="contact-card" href="https://www.linkedin.com/in/aviralgupta" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i><div><h3>LinkedIn</h3><p>linkedin.com/in/aviralgupta</p></div></a>
-                </div>
-                <p class="contact__note">Languages: English, Hindi</p>
+          </article>
+
+          <article class="project-card coming-card reveal">
+            <div class="coming-icon">＋</div>
+            <div class="project-body">
+              <div class="project-top"><span class="project-number">03</span><span class="project-type">More coming</span></div>
+              <h3>More things are in progress.</h3>
+              <p>I'm continuously building academic projects, freelance websites and experiments with AI. This section will grow with me.</p>
+              <a href="mailto:aviral2413045@akgec.ac.in" class="text-link">Ask me what I'm building <span>→</span></a>
             </div>
-        </section>
+          </article>
+        </div>
+      </section>
+
+      <section class="section soft-section" id="experience">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Experience & community</p>
+          <h2>Learning by doing.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-meta">01 · Internship</div>
+            <div class="timeline-content">
+              <h3>AI Intern <span>@ IBM Edunet Foundation</span></h3>
+              <p class="time">1 month</p>
+              <p>Completed hands-on exposure to Artificial Intelligence concepts, practical projects, and industry-oriented AI use cases.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-meta">02 · Community</div>
+            <div class="timeline-content">
+              <h3>Machine Learning Domain Member <span>@ GDG AKGEC</span></h3>
+              <p>Participated in ML workshops and collaborative learning activities covering data science workflows, model building and neural-network concepts. Contributed to multiple technical projects and GDG initiatives.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="about-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">A little about me</p>
+            <h2>Curious by default.<br /><span>Hands-on by choice.</span></h2>
+          </div>
+          <div class="about-copy reveal">
+            <p>I'm currently pursuing a <strong>B.Tech in Information Technology</strong> at Ajay Kumar Garg Engineering College (AKGEC), with an expected graduation in 2028.</p>
+            <p>I enjoy the intersection of <strong>AI, machine learning and software development</strong>. I like taking a vague idea, figuring out how it should work, and then actually building it.</p>
+            <p>Outside formal coursework, I've worked on hackathons, collaborative projects, GDG initiatives and freelance websites. My team was also a <strong>Runner-Up at an IIIT Gwalior hackathon</strong>.</p>
+            <p class="small-note">Currently looking for internship opportunities where I can learn fast, contribute meaningfully and work with a strong engineering team.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Toolkit</p>
+          <h2>Things I work with.</h2>
+        </div>
+        <div class="skills-board reveal">
+          <div class="skill-group"><h3>Languages</h3><div class="skill-list"><span>Python</span><span>Java</span><span>SQL</span></div></div>
+          <div class="skill-group"><h3>AI / Machine Learning</h3><div class="skill-list"><span>Scikit-learn</span><span>Neural Networks</span><span>LSTM</span><span>Supervised Learning</span><span>Model Evaluation</span></div></div>
+          <div class="skill-group"><h3>Data & Analytics</h3><div class="skill-list"><span>Pandas</span><span>NumPy</span><span>Data Cleaning</span><span>Data Visualization</span></div></div>
+          <div class="skill-group"><h3>Tools & Deployment</h3><div class="skill-list"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Docker</span></div></div>
+        </div>
+      </section>
+
+      <section class="section achievements" id="achievements">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Beyond the classroom</p>
+          <h2>Milestones & momentum.</h2>
+        </div>
+        <div class="achievement-grid">
+          <div class="achievement-card reveal"><div class="achievement-icon">🏆</div><span>Hackathon</span><h3>IIIT Gwalior</h3><p>Runner-Up as a team member, contributing to solution development, implementation and collaboration.</p></div>
+          <div class="achievement-card reveal"><div class="achievement-icon">🇮🇳</div><span>Smart India Hackathon</span><h3>Retail Intelligence</h3><p>Contributed to an AI-powered platform focused on intelligent retail analytics.</p></div>
+          <div class="achievement-card reveal"><div class="achievement-icon">⌘</div><span>Freelance</span><h3>Web Development</h3><p>Designed and developed websites for clients across requirements, UI, responsive design and deployment.</p></div>
+          <div class="achievement-card reveal"><div class="achievement-icon">🤝</div><span>Collaboration</span><h3>Multiple Projects</h3><p>Worked across academic and technical group projects in ML, web development and software engineering.</p></div>
+        </div>
+      </section>
+
+      <section class="section certifications">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Learning log</p>
+          <h2>Certifications & courses.</h2>
+        </div>
+        <div class="cert-list reveal">
+          <div><span>01</span><p>Introduction to Generative AI Studio</p><small>Google Cloud / Simplilearn SkillUp</small></div>
+          <div><span>02</span><p>Databricks: Get Started with SQL Analytics and BI</p><small>Simplilearn SkillUp</small></div>
+          <div><span>03</span><p>Introduction to Prompt Engineering and GitHub Copilot</p><small>Microsoft / GitHub-focused · Simplilearn SkillUp</small></div>
+          <div><span>04</span><p>Microsoft Data Analyst 101</p><small>Simplilearn SkillUp</small></div>
+          <div><span>05</span><p>Fundamentals of Machine Learning using Scikit-learn</p><small>Infosys Springboard</small></div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-cloud cloud-left"></div><div class="contact-cloud cloud-right"></div>
+        <div class="contact-inner reveal">
+          <p class="eyebrow">CONTACT & OPPORTUNITIES</p>
+          <h2>Let's connect.<br /><em>Let's build.</em></h2>
+          <p>Looking for an AI/ML internship, a collaborative engineering team, or a freelance web project? Reach out directly through any of the channels below.</p>
+          <div class="contact-card-grid">
+            <a class="contact-card" href="mailto:aviral2413045@akgec.ac.in"><span class="contact-icon" aria-hidden="true">✉</span><span class="contact-label">Email</span><strong>aviral2413045@akgec.ac.in</strong><span class="contact-hint">Best for opportunities · ↗</span></a>
+            <a class="contact-card" href="tel:+919451145249"><span class="contact-icon" aria-hidden="true">☎</span><span class="contact-label">Phone</span><strong>+91 94511 45249</strong><span class="contact-hint">Available by call · ↗</span></a>
+            <a class="contact-card" href="https://github.com/aviral-guptaa" target="_blank" rel="noopener noreferrer"><span class="contact-icon" aria-hidden="true">⌘</span><span class="contact-label">GitHub</span><strong>github.com/aviral-guptaa</strong><span class="contact-hint">Projects & code · ↗</span></a>
+            <a class="contact-card" href="https://www.linkedin.com/in/aviralgupta" target="_blank" rel="noopener noreferrer"><span class="contact-icon" aria-hidden="true">in</span><span class="contact-label">LinkedIn</span><strong>linkedin.com/in/aviralgupta</strong><span class="contact-hint">Professional profile · ↗</span></a>
+          </div>
+          <div class="contact-bottomline"><span>🌐 English · Hindi</span><span>🎓 B.Tech IT · AKGEC · 2024–2028</span><span>📍 Lucknow / Delhi NCR, India</span><span class="availability"><i></i> Open to internships</span></div>
+        </div>
+      </section>
     </main>
     <footer class="site-footer">
-        <div class="container footer__inner">
-            <p>© <span id="year"></span> Aviral Gupta. Built with HTML, CSS & JavaScript.</p>
-            <a class="footer__back" href="#home">Back to top <i class="bi bi-arrow-up"></i></a>
-        </div>
+      <div class="footer-main">
+        <div class="footer-about"><a class="footer-brand" href="#top"><span class="brand-mark">AG</span><span>Aviral Gupta</span></a><p>AI/ML enthusiast and IT engineering student building practical machine-learning systems, computer-vision projects and responsive web experiences.</p><div class="footer-status"><i></i> Available for internship opportunities</div></div>
+        <div class="footer-column"><h3>Explore</h3><a href="#about">About me</a><a href="#experience">Experience</a><a href="#work">Projects</a><a href="#skills">Technical skills</a><a href="#achievements">Achievements</a><a href="#top">Certifications</a></div>
+        <div class="footer-column"><h3>Get in touch</h3><a href="mailto:aviral2413045@akgec.ac.in">✉ aviral2413045@akgec.ac.in</a><a href="tel:+919451145249">☎ +91 94511 45249</a><a href="https://github.com/aviral-guptaa" target="_blank" rel="noopener noreferrer">⌘ GitHub profile ↗</a><a href="https://www.linkedin.com/in/aviralgupta" target="_blank" rel="noopener noreferrer">in LinkedIn profile ↗</a><span>Lucknow / Delhi NCR, India</span></div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year"></span> Aviral Gupta. Built with HTML, CSS & JavaScript.</span><span class="footer-bottom-right"><span>English · Hindi</span><a href="#top">Back to top ↑</a></span></div>
     </footer>
-    <script src="js/main.js"></script>
+    </main>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
