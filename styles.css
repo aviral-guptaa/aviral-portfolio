@@ -500,7 +500,7 @@ html[data-theme="dark"] .contact-cloud { background: rgba(151,173,230,.07); }
   background: var(--surface2); border: 1px solid var(--line);
   box-shadow: var(--shadow-sm); border-radius: 13px;
 }
-.achievement-icon { display: grid; width: 48px; height: 48px; padding: 10px; }
+.achievement-icon { display: grid; width: 48px; height: 48px; padding: 10px; line-height: 1; }
 .contact-icon { width: 42px; height: 42px; margin-bottom: 12px; font-size: 19px; }
 .contact-card { background: linear-gradient(145deg,var(--surface),var(--paper)); box-shadow: var(--shadow-sm); }
 .contact-card strong { color: var(--ink); overflow-wrap: anywhere; }
